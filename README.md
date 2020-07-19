@@ -3,4 +3,9 @@ K8blog: A simple green theme for hexo  (K8博客: 一款简洁、清爽、绿色
 
 #### Home: http://k8gege.org
 
-![image](https://github.com/k8gege/k8blog/raw/master/source/k8blog/k8blog.png)
+(![image](http://k8gege.org/k8img/k8blog/k8blog.png)
+
+### 博客功能
+
+支持评论
+文章缩略图
