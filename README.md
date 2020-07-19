@@ -140,7 +140,7 @@ tagcloud:
 
 ## 友链设置{@链接名称：链接地址{@links:[,,,]}}
 links:
-  - K8gege: https://k8gege.org
+  - K8gege: http://k8gege.org
 
 
 # 主题自定义个性化配置
@@ -192,7 +192,7 @@ declaration:
   enable: true
   title: '转载声明'
   tip: |-
-      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">K8blog</a>
+      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="http://k8gege.org" target="_blank">k8gege</a>
 
 ## 文章打赏{@reward: {alipay:支付宝打赏,wepay:微信打赏,tip:打赏提示语; 链接都为空,关闭打赏功能}}
 reward:
