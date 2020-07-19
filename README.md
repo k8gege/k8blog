@@ -51,6 +51,6 @@ npm i hexo-generator-json-content@2.2.0 -S
 hexo clean && hexo g && hexo s
 ```
 
-使用浏览器打开地址http://localhost:4000进行预览。
+使用浏览器打开地址 http://localhost:4000 进行预览。
 
 
