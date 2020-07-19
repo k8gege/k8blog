@@ -299,6 +299,9 @@ version: 1.0.0 //当前主题版本号
 ```
 
 ### 发布文章
+
+进入source\_posts目录，新建ladon.md文件，内容如下
+
 ```
 ---
 title: Ladon大型内网渗透扫描器&Cobalt Strike
@@ -314,7 +317,7 @@ tags:
 #img: 
 img: http://k8gege.org/k8img/Ladon/Dragon.jpg
 description: ""
-abbrlink: 648af4b3
+abbrlink: ladon
 date: 2020-7-17 22:30:24
 ---
 
