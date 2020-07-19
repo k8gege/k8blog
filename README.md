@@ -142,8 +142,8 @@ links:
 
 # 主题自定义个性化配置
 
-## 网站宣传语{@branding：网站宣传语(不设置显示本地图片)}
-branding: 从未如此简单有趣
+## 网站宣传语
+branding: 没有绝对安全的系统
 
 ## 设置banner背景图片{@img:自定义图片地址(支持绝对和相对路径),主题默认{"静态背景":"banner.jpg"},{"动态背景":"banner2.jpg"},{"动态星空背景":"banner3.jpg"}}
 ## 例如：http://k8gege.org/img/banner|2|3.jpg, 或者 './img/banner-img.jpg'(相对本地资源地址)
