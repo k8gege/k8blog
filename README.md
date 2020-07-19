@@ -290,9 +290,9 @@ fontAwesome: //cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
 
 ## 网站主题配置
 since: 2020  //建站时间
-beian: '京ICP备04000001号' //网站备案号
+beian: '京ICP备04000001号' //备案号
 robot: 'all'  //控制搜索引擎的抓取和索引编制行为，默认为all
-version: 1.2.1  //当前主题版本号
+version: 1.0.0 //当前主题版本号
 ```
 
 ### 
