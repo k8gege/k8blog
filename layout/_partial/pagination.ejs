@@ -1,0 +1,15 @@
+<% if (page.total > 1){ %>
+<nav class="pagination" role="navigation">
+    <div id="page-nav">
+
+        <%- paginator({
+
+               //prev_text: "<i class='fa fa-angle-left'></i>",
+               //next_text: "<i class='fa fa-angle-right'></i>"
+			  
+			   //prev_text: " Last ",
+               //next_text: " Next "
+            }) %>
+    </div>
+</nav>
+<% } %>

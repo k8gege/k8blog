@@ -1,0 +1,269 @@
+# ---------------------------------------------------------------
+#   Site Information And Theme Configuration Settings
+#   language: zh-CN
+# ---------------------------------------------------------------
+
+language: zh-CN
+
+## menu
+menu:
+- page: home
+  url: /
+  icon:
+#- page: Post
+#  url: /categories/Post/
+#  icon:
+- page: Ladon
+  url: /Ladon/
+  icon: 
+- page: Code
+  url: /tags/Code/
+  icon:
+- page: Exp
+  url: /tags/Exp/
+  icon:
+- page: Tool
+  url: /tags/Tool/
+  icon:
+- page: Archives
+  url: /archives/
+  icon:
+- page: Rss
+  url: /atom.xml
+  icon:
+
+
+## favicon
+favicon: /favicon.ico
+
+## Feed
+rss: /atom.xml
+
+## Carousel
+carousel:
+  #img: './img/MS17010.gif'
+  img: 'https://s2.ax1x.com/2020/01/12/lTg0Hg.gif'
+  url: 'http://k8gege.org/p/56393.html'
+
+# 各个小工具的设置
+
+## widgets
+widgets:
+  - search
+  - notification
+  - social
+  - category
+  - archive
+  - tagcloud
+  - friends
+
+
+## 搜索
+jsonContent:
+  searchLocal: true
+  searchGoogle: false
+  posts:
+    title: true
+    text: true
+    content: true
+    categories: false
+    tags: false
+
+## 网站公告设置
+notification: |-
+            <p>
+                K8tools: <a href="https://github.com/k8gege/K8tools" title="" target="_blank">K8工具合集</a> <br/>
+                Ladon: <a href="http://k8gege.org/Ladon" title="" target="_blank">V7.0 20200717</a> <br/>
+                Tools: <a href="http://k8gege.org/Download" title="" target="_blank">Download</a> <br/>
+            </p>
+
+## 社交设置
+social:
+ - name: Github
+   icon: git
+   href: //github.com/k8gege
+ - name: 邮箱
+   icon: envelope-o
+   href: mailto:k8gege@gmail.com
+ - name: 联系QQ
+   icon: qq
+   href: /
+ - name: 微信
+   icon: weixin
+   href: /
+ - name: QQ群
+   icon: users
+   href: /
+ - name: RSS
+   icon: feed
+   href: /atom.xml
+
+## 文章分类设置
+cate_config:
+   show_count: true
+   show_current: true
+
+## 文章归档设置
+arch_config:
+   type: 'monthly'
+   format: 'YYYY年MM月'
+   show_count: true
+   order: -1
+
+## 标签云设置
+tagcloud:
+  tag3d: true
+  textColour: '#444'
+  outlineMethod: 'block'
+  outlineColour: '#FFDAB9'
+  interval: 30
+  freezeActive: true
+  frontSelect: true
+  reverse: true
+  wheelZoom: false
+
+## 友链设置
+links:
+  - K8哥哥: http://k8gege.org
+  - 博客园: https://www.cnblogs.com/k8gege
+  - CSDN: https://blog.csdn.net/k8gege
+  - Github: https://github.com/k8gege
+
+# 主题自定义个性化配置
+
+## 网站宣传语
+branding: 没有绝对安全的系统
+
+## 设置banner背景图片
+banner:
+    #img: img/banner.jpg
+    img: https://www.cnblogs.com/skins/CodingLife/images/title-yellow.png
+
+## 首页列表底部面板
+homePanel: true
+
+## 缩略图自定义随机图片
+defaultImgs:
+  -
+
+## 截取文章首页描述字数
+excerptLength: 120
+
+## 是否开启文章目录
+toc: true
+
+## 代码高亮配置
+highlightTheme:
+
+## bootstrap配置
+bootstrap:
+
+## ICON配置
+fontAwesome:
+
+## 文章过期提醒功能
+warning:
+  days: 300
+  #text: '本文于%d天之前发表，文中内容可能已经过时。'
+  text: '本文于%d天之前发表'
+
+## 文章内声明
+declaration:
+  enable: true
+  title: '转载声明'
+  tip: |-
+      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="http://k8gege.org" target="_blank">K8gege</a>
+
+## 文章打赏
+reward:
+  alipay: ''
+  wepay: '../img/join.png'
+  tip: ~进群讨论
+
+## 主题评论
+
+## Valine评论
+valine:
+   enable: false
+   appId: 
+   appKey: 
+   placeholder: 说点什么吧
+   notify: false
+   verify: true
+   avatar: mm
+   meta: nick,mail
+   pageSize: 10
+
+### 畅言评论(需要ICP备案)
+changyan:
+  enable: false
+  appid:
+  conf:
+
+### 来必力
+livere:
+  enable: false
+  livere_uid: 
+
+## Gitalk评论
+gitalk:
+   enable: false
+   clientID: 
+   clientSecret: 
+   repo: k8gege.github.io
+   owner: k8gege
+   admin: k8gege
+   perPage:
+   distractionFreeMode: true
+
+### Disqus评论
+disqus:
+  enable: false
+  shortname: K8blog
+  count: false
+
+### gitment评论(长期不更新，不建议使用)
+gitment:
+  enable: false
+  owner: k8gege
+  repo: k8gege.github.io
+  client_id: 
+  client_secret: 
+  perPage: 10
+
+### 友言评论(服务不稳定)
+uyan:
+  enable: false
+  uyan_id: 1966422
+
+
+## 网站访客统计
+visit_counter:
+   site: true
+   page: true
+
+## 网站访问统计分析
+
+### 网盟CNZZ统计
+cnzz_analytics: 
+
+### 百度统计
+baidu_analytics:
+
+### 谷歌统计
+google_analytics:
+
+### 腾讯分析
+tencent_analytics:
+
+### 百度站点认证
+baidu_site_verification:
+
+### 百度自动推送
+baidu_push: false
+
+#网站主题配置
+since: 2020
+beian: 
+robot: 'all' ### 控制搜索引擎的抓取和索引编制行为，默认为all
+version: 1.0.0

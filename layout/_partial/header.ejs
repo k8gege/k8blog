@@ -1,0 +1,21 @@
+<header class="main-header" <% if(theme.banner.img){ %> style="background-image:url(
+    <%= url_for(theme.banner.img) %>)"
+    <%}%> >
+    <div class="main-header-box">
+        <a class="header-avatar" href="/" title='<%= config.author %>'>
+            <%- image_tag('https://s2.ax1x.com/2020/01/12/lTggg0.png',{alt:'logo',class:'img-responsive'}) %>
+			<h3 class="K8tilte">K8哥哥</h3>
+        </a>
+        <div class="branding">
+            <!--<h2 class="text-hide">没有绝对安全的系统</h2>-->
+            <% if(theme.branding){ %>
+            <h2>
+                <%= theme.branding %>
+            </h2>
+            <% } else { %>
+            <%- image_tag('img/branding.png',{alt:'没有绝对安全的系统',class:'img-responsive left-block'}) %>
+            <% } %>
+        </div>
+    </div>
+	
+</header>

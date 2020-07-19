@@ -1,0 +1,21 @@
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <%- partial('_partial/busuanzi') %>
+            </div>
+            <div class="col-sm-12">
+                <span>Copyright &copy;
+                    <%= theme.since %>
+                    <% if(theme.beian) { %><a href="//beian.miit.gov.cn/" target="_blank" rel="nofollow">
+                        <%= theme.beian %></a>
+                    <% } %>
+                </span> |
+                <span>
+                    Powered by <a href="//k8gege.org" class="copyright-links" target="_blank" rel="nofollow">K8gege</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<%- partial('_partial/script') %>
