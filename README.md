@@ -100,15 +100,18 @@ jsonContent:
 
 ## notification config --网站公告设置,支持 html 和 纯文本
 notification: |-
-            <p>主题已经上线！欢迎下载或更新~ <br/>
-            主题下载：<a href="https://github.com/k8gege/k8blog" title="fork me" target="_blank">K8blog主题</a> <br/>
-            <hr/>接受贡献，包括不限于提交问题与需求，修复代码。欢迎Pull Request<br/>支持主题：<a href="https://github.com/k8gege/k8blog">Star一下</a></p>
+               <p>
+                K8tools: <a href="https://github.com/k8gege/K8tools" title="" target="_blank">K8工具合集</a> <br/>
+                K8blog: <a href="https://github.com/k8gege/k8blog" title="" target="_blank">V1.0 20200719</a> <br/>
+                Ladon: <a href="http://k8gege.org/Ladon" title="" target="_blank">V7.0 20200717</a> <br/>
+                Tools: <a href="http://k8gege.org/Download" title="" target="_blank">Download</a> <br/>
+                </p>
 
 ## 社交设置{@name:社交工具名字，@icon:社交工具图标，@href:设置工具链接} [参考图标](http://fontawesome.io/icons/)
 social:
   - name: Github
     icon: git
-    href: //github.com/k8gege
+    href: https://github.com/k8gege
 
 ## 文章分类设置{@cate_config:{@show_count:是否显示数字，@show_current: 是否高亮当前category}}
 cate_config:
