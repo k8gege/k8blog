@@ -22,3 +22,7 @@ K8blog: A simple Green fresh fashion IT theme for hexo  <br>
 - 访问统计
 - 百度统计
 - 打赏功能
+
+### 兼容性
+- 兼容手机&电脑
+- 兼容主流浏览器(Firefox\IE\360\Chrome)等
