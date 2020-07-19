@@ -300,7 +300,7 @@ version: 1.0.0 //当前主题版本号
 
 ### 发布文章
 
-进入source\_posts目录，新建ladon.md文件，内容如下
+进入source\_posts目录，新建ladon.md文件，内容如下,2级目录例子：如http://k8gege.org/Ladon,，在posts下创建Ladon目录后，在目录里添加文章即可。
 
 ```
 ---
