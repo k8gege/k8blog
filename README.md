@@ -137,7 +137,7 @@ tagcloud:
 
 ## 友链设置{@链接名称：链接地址{@links:[,,,]}}
 links:
-  - Hexo官网: https://hexo.io/zh-cn/
+  - K8gege: https://k8gege.org
 
 
 # 主题自定义个性化配置
