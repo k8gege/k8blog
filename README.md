@@ -10,6 +10,7 @@ K8blog: A simple Green fresh fashion IT theme for hexo  <br>
 - 3D导航按钮
 - 支持评论
 - 文章置顶
+- 文章摘要
 - 代码高亮
 - 文章缩略图
 - 3D云标签
