@@ -21,3 +21,4 @@ K8blog: A simple Green fresh fashion IT theme for hexo  <br>
 - 站内搜索
 - 访问统计
 - 百度统计
+- 打赏功能

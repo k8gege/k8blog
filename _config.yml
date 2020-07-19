@@ -176,9 +176,9 @@ declaration:
 
 ## 文章打赏
 reward:
-  alipay: ''
-  wepay: '../img/join.png'
-  tip: ~进群讨论
+  alipay: '../img/join.png'
+  wepay: '../img/reward-wepay.jpg'
+  tip: ~好文赞赏
 
 ## 主题评论
 
