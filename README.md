@@ -195,7 +195,7 @@ declaration:
 reward:
   alipay: ''
   wepay: '../img/reward-wepay.jpg'
-  tip: 赞赏是不耍流氓的鼓励
+  tip: 打赏作者
 
 
 ## 主题评论
@@ -295,24 +295,4 @@ robot: 'all'  //控制搜索引擎的抓取和索引编制行为，默认为all
 version: 1.2.1  //当前主题版本号
 ```
 
-### 主题使用技巧及功能扩展
-1. 修改新增文章Front-matter模板,修改`scaffolds`目录下的`post.md`模板
-> 模板文件内部不要保留注释部分,关键词后面请使用英文冒号
-``` yml
-  ---
-  title: {{ title }} // 标题
-  date: {{ date }}   // 时间
-  categories: ['分类1','分类2'] // 分类
-  tags: ['标签1','标签2']       // 标签
-  comments: false    // 是否开启评论
-  img:               // 自定义缩略图
-  ---
-```
-
-2. 启用站内本地搜索功能
-
-如果要使用本地站点搜索，必须安装插件hexo-generator-json-content来创建本地搜索json文件
-```bash
-npm i hexo-generator-json-content@2.2.0 -S
-```
-然后修改主题配置_config.yml文件下`jsonContent`相关参数。
+### 
