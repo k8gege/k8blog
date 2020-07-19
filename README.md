@@ -4,9 +4,17 @@ K8blog: A simple Green fresh fashion IT theme for hexo  <br>
 
 #### Home: http://k8gege.org
 
-(![image](http://k8gege.org/k8img/k8blog/k8blog.png)
+![image](http://k8gege.org/k8img/k8blog/k8blog.png)
 
 ### 博客功能
 
-支持评论
-文章缩略图
+.3D博客标题
+.3D导航按钮
+.支持评论
+.文章缩略图
+.标签云
+.友情链接
+.文章搜索
+.RSS订阅
+.图片懒加载
+.URL持久化
